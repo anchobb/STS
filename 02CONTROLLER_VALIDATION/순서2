@@ -1,0 +1,23 @@
+01 pom.xml 설정
+
+02 MemoDto
+//바인딩 되고 난 이후,,
+- @Min (Value=10, message=?)
+- @Max
+- @Size(min= max= message=)
+- @NotBlank
+- @Email
+...
+
+- @DateTimeFormat(pattern=)
+
+
+03 MemoController
+- Parameter 앞에 @Valid 유효성체크하기 위한 애노테이션 설정
+- BindingResult로 유효성체크 결과 확인
+
+04 View로 메시지 확인
+
+05 WebDataBinder 등록하기
+- @InitBinder
+- CustomEditor 등록하기

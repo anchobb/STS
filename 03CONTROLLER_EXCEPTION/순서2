@@ -1,0 +1,8 @@
+01 pom.xml 설정
+
+02 MemoDto
+- @Min (Value=10, message=?)
+
+03 MemoController
+- @Valid 유효성체크하기 위한 애노테이션 변수에 설정
+- BindingResult로 유효성체크 결과 확인

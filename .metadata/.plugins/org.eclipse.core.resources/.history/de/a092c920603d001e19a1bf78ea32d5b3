@@ -1,0 +1,112 @@
+package com.test.app.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.test.app.config.auth.CustomAccessDeniedHandler;
+import com.test.app.config.auth.CustomAuthenticationEntryPoint;
+import com.test.app.config.auth.CustomAuthenticationFailureHandler;
+import com.test.app.config.auth.CustomLoginSuccessHandler;
+import com.test.app.config.auth.CustomLogoutHandler;
+import com.test.app.config.auth.CustomLogoutSuccessHandler;
+import com.test.app.config.auth.PrincipalDetailsService;
+
+//Security-context.xml 설정 내용
+
+@Configuration
+@EnableWebSecurity
+
+public class SecurityConfig extends WebSecurityConfigurerAdapter{
+
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+	
+	//웹 요청 처리
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.csrf().disable(); //중간자공격(csrf) 비활성화
+		http
+		.authorizeRequests()
+			.antMatchers("/","/public","/login","/join").permitAll()		//상위경로, public경로, myLogin경로 모두 허용
+			.antMatchers("/user").hasRole("USER")		//ROLE_USER
+			.antMatchers("/member").hasRole("MEMBER")	//ROLE_MEMBER
+			.antMatchers("/admin").hasRole("ADMIN")		//ROLE_ADMIN
+			.anyRequest().authenticated()				//나머지 URL은 모두 인증작업이 완료된 이후 접근가능
+		.and()
+		
+		//로그인
+		.formLogin()	//login 기본 폼 생성
+		.loginPage("/login") //내가 원하는 login페이지 경로 지정(POST할 경로)
+		.successHandler(new CustomLoginSuccessHandler()) //로그인한 사람의 역할에 따라서 페이지 위치 이동하기 위한 로직
+		.failureHandler(new CustomAuthenticationFailureHandler())
+		
+		//로그아웃
+		.and()
+		.logout()		//logout
+		.logoutUrl("/logout") //내가 원하는 logout페이지 경로 지정
+		.permitAll()
+		.addLogoutHandler(new CustomLogoutHandler())	//로그아웃 시 세션초기화
+		.logoutSuccessHandler(new CustomLogoutSuccessHandler());	//로그아웃 성공 시 기본위치로 페이지 이동
+		
+		http.exceptionHandling()
+		.authenticationEntryPoint(new CustomAuthenticationEntryPoint()) //인증이 필요한 자원에 접근했을 때 예외처리(인증 예외)
+		.accessDeniedHandler(new CustomAccessDeniedHandler()) //권한 없는 id로 로그인 했을 때 예외처리 (권한실패 예외)
+	
+		.and()
+		//REMEMBER-ME ADDED
+		.rememberMe()
+		.alwaysRemember(false)
+		.rememberMeParameter("remember-me");
+	
+	}
+	
+	@Autowired
+		private PrincipalDetailsService principalDetailsService;
+	
+	//인증처리 함수
+	@Override					//인증처리를 위한 매니저객체
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+//		auth   //userDetailsService(null) - DB연결할 때 사용하는 Service
+//			.inMemoryAuthentication()
+//				.withUser("user")
+//				.password(passwordEncoder.encode("1234"))
+//				.roles("USER");
+//		
+//		auth   
+//		.inMemoryAuthentication()
+//			.withUser("member")
+//			.password(passwordEncoder.encode("1234"))
+//			.roles("MEMBER");
+//		
+//		auth   
+//		.inMemoryAuthentication()
+//			.withUser("admin")
+//			.password(passwordEncoder.encode("1234"))
+//			.roles("ADMIN");
+		
+		auth.userDetailsService(principalDetailsService) //해당 service만들어야함~
+			.passwordEncoder(passwordEncoder);
+		
+		
+	}
+	
+	
+
+	//BCryptPasswordEncoder Bean 등록
+	//패스워드 검증에 사용
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
+
+	//REMEMBER-ME 를 통한 자동로그인
+	
+	
+}

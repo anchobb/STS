@@ -1,0 +1,117 @@
+
+8월 02, 2023 13:24:38.467 NEW SESSION
+8월 02, 2023 13:24:38.467 [5452:17860:0802/132438.453:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 02, 2023 15:53:35.497 [5452:15700:0802/155335.493:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 02, 2023 15:53:47.77 [5452:15700:0802/155347.077:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 02, 2023 16:06:02.416 [5452:15700:0802/160602.416:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 02, 2023 16:06:11.35 [5452:15700:0802/160611.035:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 02, 2023 17:13:16.474 [5452:15700:0802/171316.474:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 02, 2023 19:41:14.397 [5452:15700:0802/194114.397:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 02, 2023 21:07:43.270 [5452:15700:0802/210743.269:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 02, 2023 21:27:42.932 [5452:15700:0802/212742.932:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 04, 2023 09:53:34.436 [30388:20828:0804/095334.436:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 04, 2023 10:08:18.247 [17064:29328:0804/100818.246:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 04, 2023 10:10:00.322 [1516:20804:0804/101000.322:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 04, 2023 10:54:39.630 [1516:8056:0804/105439.630:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 04, 2023 11:00:22.729 [1516:8056:0804/110022.729:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 04, 2023 11:48:12.455 [1516:8056:0804/114812.455:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 04, 2023 12:49:51.205 [1516:8056:0804/124951.205:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+8월 09, 2023 13:54:03.455 NEW SESSION
+8월 09, 2023 13:54:03.455 [12932:15988:0809/135403.442:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 10, 2023 15:40:51.618 [8084:15080:0810/154051.617:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 11, 2023 10:24:58.415 [8824:2272:0811/102458.415:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 11, 2023 10:51:27.993 [12712:4520:0811/105127.993:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 11, 2023 10:59:58.158 [12712:15372:0811/105958.157:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 11:05:20.352 [12712:15372:0811/110520.351:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+8월 11, 2023 11:48:40.687 NEW SESSION
+8월 11, 2023 11:48:40.687 [6368:6360:0811/114840.686:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 11, 2023 11:55:14.03 [6368:1828:0811/115514.003:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 12:31:11.500 [6368:1828:0811/123111.500:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 13:49:00.65 [6368:1828:0811/134900.065:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 13:55:31.131 [6368:1828:0811/135531.131:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 13:57:35.909 [6368:1828:0811/135735.909:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 11, 2023 14:59:21.931 [6368:1828:0811/145921.931:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 15:47:55.860 [6368:1828:0811/154755.859:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 11, 2023 15:48:47.200 [6368:1828:0811/154847.200:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 11, 2023 15:52:32.733 [6368:1828:0811/155232.733:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 07:49:04.118 [6368:6360:0813/074904.118:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 13, 2023 07:49:04.121 [6368:1828:0813/074904.121:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+8월 13, 2023 07:49:04.121 [6368:1828:0813/074904.121:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 07:49:04.122 [6368:1828:0813/074904.121:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 07:49:04.122 [6368:1828:0813/074904.121:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 15:10:09.569 [6368:1828:0813/151009.568:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 13, 2023 15:10:09.583 [6368:1828:0813/151009.583:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 15:10:09.625 [6368:1828:0813/151009.625:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 15:10:09.626 [6368:1828:0813/151009.625:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+8월 13, 2023 15:10:09.626 [6368:1828:0813/151009.625:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+8월 13, 2023 15:10:09.650 [6368:6360:0813/151009.649:ERROR:account_info_fetcher.cc(86)] OnNetworkError -1
+8월 13, 2023 15:10:10.134 [6368:1828:0813/151010.134:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 13, 2023 15:12:52.568 [6368:1828:0813/151252.567:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 16:40:39.230 [6368:1828:0813/164039.230:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 16:47:27.772 [6368:1828:0813/164727.771:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 17:05:56.709 [6368:1828:0813/170556.709:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 13, 2023 17:08:59.250 [6368:1828:0813/170859.249:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 17:18:04.342 [6368:1828:0813/171804.342:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 17:31:34.181 [6368:1828:0813/173134.180:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 17:41:04.208 [6368:1828:0813/174104.207:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 13, 2023 17:46:09.690 [6368:1828:0813/174609.690:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 14, 2023 08:47:05.398 [6368:6360:0814/084705.398:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+8월 14, 2023 08:47:05.420 [6368:1828:0814/084705.420:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 14, 2023 08:47:05.588 [6368:11172:0814/084705.587:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 14, 2023 08:48:07.682 [6368:1828:0814/084807.682:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 08:48:24.267 [6368:1828:0814/084824.267:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 08:52:48.664 [6368:1828:0814/085248.664:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+8월 14, 2023 09:51:12.822 [6368:1828:0814/095112.822:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 09:56:21.848 [6368:1828:0814/095621.848:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 10:55:21.920 [6368:1828:0814/105521.920:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 11:49:23.294 [6368:1828:0814/114923.293:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 11:49:24.258 [6368:1828:0814/114924.258:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+8월 14, 2023 12:52:51.656 [6368:6360:0814/125251.656:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:51.865 [6368:6360:0814/125251.865:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:51.988 [6368:6360:0814/125251.987:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.103 [6368:6360:0814/125252.103:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.214 [6368:6360:0814/125252.214:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.333 [6368:6360:0814/125252.333:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.449 [6368:6360:0814/125252.448:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.574 [6368:6360:0814/125252.573:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.679 [6368:6360:0814/125252.679:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.815 [6368:6360:0814/125252.815:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:52.940 [6368:6360:0814/125252.940:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:53.132 [6368:6360:0814/125253.132:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:53.304 [6368:6360:0814/125253.304:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:53.775 [6368:6360:0814/125253.775:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:53.990 [6368:6360:0814/125253.990:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:54.374 [6368:6360:0814/125254.373:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:54.745 [6368:6360:0814/125254.745:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:54.975 [6368:6360:0814/125254.975:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.175 [6368:6360:0814/125255.175:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.326 [6368:6360:0814/125255.326:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.440 [6368:6360:0814/125255.440:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.549 [6368:6360:0814/125255.549:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.692 [6368:6360:0814/125255.692:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.820 [6368:6360:0814/125255.820:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:55.941 [6368:6360:0814/125255.941:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:56.43 [6368:6360:0814/125256.043:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:56.80 [6368:6360:0814/125256.079:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 12:52:56.168 [6368:6360:0814/125256.167:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.42 s for first_image_paint 0.405 s
+8월 14, 2023 14:00:18.405 [6368:1828:0814/140018.405:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 14:06:50.308 [6368:1828:0814/140650.308:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 14, 2023 14:54:48.491 [6368:1828:0814/145448.491:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 15:02:16.372 [6368:1828:0814/150216.371:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 14, 2023 15:10:20.302 [6368:1828:0814/151020.301:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 14, 2023 15:14:39.197 [6368:1828:0814/151439.196:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+8월 16, 2023 12:17:08.760 NEW SESSION
+8월 16, 2023 12:17:08.760 [6768:3532:0816/121708.745:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 16, 2023 12:18:12.990 [6768:3532:0816/121812.989:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 16, 2023 12:18:14.57 [6768:3532:0816/121814.057:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+8월 16, 2023 12:24:53.538 [6768:3532:0816/122453.538:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 16, 2023 12:48:50.413 [6768:3532:0816/124850.412:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+8월 16, 2023 13:00:57.673 [6768:3532:0816/130057.673:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+8월 17, 2023 12:03:57.958 NEW SESSION
+8월 17, 2023 12:03:57.959 [9180:11432:0817/120357.944:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 17, 2023 12:19:27.950 [9180:11432:0817/121927.949:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 17, 2023 12:26:13.15 [9180:11432:0817/122613.014:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7

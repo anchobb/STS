@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;&apos; to &apos;com.test.app.domain.service.MemoService.mapper&apos;&#x0D;&#x0A;- Original project: &apos;07PRESENTATION_RESTCONTROLLER&apos;&#x0D;&#x0A;- Destination element: &apos;com.test.app.domain.service.MemoService.mapper&apos;&#x0D;&#x0A;- Original element: &apos;com.test.app.domain.service.MemoService.getAllMemo()&apos;" description="Copy method" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.test.app.domain.service{MemoService.java[MemoService^mapper" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.test.app.domain.service{MemoService.java[MemoService~getAllMemo" flags="589830" id="org.eclipse.jdt.ui.copy" members="1" policy="org.eclipse.jdt.ui.copyMembers" stamp="1691477058289" version="1.0"/>
+</session>

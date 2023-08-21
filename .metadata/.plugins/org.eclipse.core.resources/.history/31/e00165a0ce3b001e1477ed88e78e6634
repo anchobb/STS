@@ -1,0 +1,73 @@
+package com.test.app.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+//Security-context.xml 설정 내용
+
+@Configuration
+@EnableWebSecurity
+
+public class SecurityConfig extends WebSecurityConfigurerAdapter{
+
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+	
+	//웹 요청 처리
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.csrf().disable(); //중간자공격(csrf) 비활성화
+		http
+		.authorizeRequests()
+			.antMatchers("/","/public","/login").permitAll()		//상위경로, public경로, myLogin경로 모두 허용
+			.antMatchers("/user").hasRole("USER")		//ROLE_USER
+			.antMatchers("/member").hasRole("MEMBER")	//ROLE_MEMBER
+			.antMatchers("/admin").hasRole("ADMIN")		//ROLE_ADMIN
+			.anyRequest().authenticated()				//나머지 URL은 모두 인증작업이 완료된 이후 접근가능
+		.and()
+		.formLogin()	//login 기본 폼 생성
+		.loginPage("/login")//내가 원하는 login페이지 경로 지정(POST할 경로)
+		
+		.and()
+		.logout();		//logout
+	}
+	
+	//인증처리 함수
+	@Override					//인증처리를 위한 매니저객체
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth   //userDetailsService(null) - DB연결할 때 사용하는 Service
+			.inMemoryAuthentication()
+				.withUser("user")
+				.password(passwordEncoder.encode("1234"))
+				.roles("USER");
+		
+		auth   
+		.inMemoryAuthentication()
+			.withUser("member")
+			.password(passwordEncoder.encode("1234"))
+			.roles("MEMBER");
+		
+		auth   
+		.inMemoryAuthentication()
+			.withUser("admin")
+			.password(passwordEncoder.encode("1234"))
+			.roles("ADMIN");
+	}
+	
+	
+
+	//BCryptPasswordEncoder Bean 등록
+	//패스워드 검증에 사용
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
+
+}

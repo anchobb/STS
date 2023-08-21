@@ -1,0 +1,16 @@
+01 기본도구 설치
+- JDK 11버전 이상
+- 환경변수설정(sysdm.cpl -> Path 설정)
+- Tomcat 9 이상
+- STS3 설치
+
+02 기본 STS 환경
+- files UTF-8 설정
+- window -> preference -> general -> workspace -> text file encoding UTF-8
+- emmet 다운로드
+- tune 다운로드
+
+03 pom.xml 버전 설정
+
+
+03 lombok 라이브러리 받기
